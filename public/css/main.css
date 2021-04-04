@@ -1,0 +1,1748 @@
+@font-face {
+    font-family: GE;
+    src: url(../fonts/GE\ SS\ Two/GE_SS_Two_Light.otf);
+    }
+    @font-face {
+    font-family: GEBold;
+    src: url(../fonts/GE\ SS\ Two/GE_SS_Two_Bold.otf);
+    }
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: GE !important;
+}
+h2
+{
+    font-family: GE;
+}
+h3
+{
+    font-family: GEBold !important;
+}
+h4
+{
+    font-family: GE;
+}
+h5
+{
+    font-family: GE;
+}
+.caro
+{
+    height: 1240px !important;
+}
+.carousel .slide
+{
+    background-color: transparent !important;
+    height: 1140px;
+}
+.factory_margin
+{
+    margin-top: -35px;
+}
+.caro_indicators
+{
+    position: relative;   
+    left: 28%;
+    top: 5px;
+    z-index: 1;
+    width: 150%;
+
+}
+
+.carousel
+{
+    overflow: visible !important;
+}
+.indi_pos1
+{
+    position: absolute;
+    left: 86px !important;
+    top: -165px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 266px !important;
+
+}
+.indi_pos2
+{
+    position: absolute;
+    left: 340px !important;
+    top: -165px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 258px !important;
+
+}
+.indi_pos3
+{
+    position: absolute;
+    top: -167px;
+    left: 550px !important;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 267px !important;
+
+}
+#myVideo 
+{
+position: relative;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+margin-top: -55px !important;
+}
+i.fa.fa-bars:before
+{
+    position: relative;
+    top: 25px;
+    color: white;
+    font-size: 30px;
+    left: 45px;
+    z-index: 9999;
+}
+.header-navigation
+{
+    padding-bottom: 35px;
+}
+.main-nav__main-navigation 
+{
+    display: none;
+}
+.main-nav__navigation-box li a
+{
+    position: relative;
+    margin-top: 27px;
+    text-align: right;
+    font-weight: bolder !important;
+    font-family: GE !important;
+    font-size: 25px;
+}
+.rectangle
+{
+    position: relative;
+    top: -1005px;
+    left: 60%;
+    background-color: white;
+    border: 1px;
+    border-radius: 45px;
+    width: 35% !important;
+    margin-left: auto;
+    display: none;
+    margin-right: auto;
+}
+.rectangle2
+{
+    position: relative;
+    top: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 1px;
+    border-radius: 45px;
+    width: 25% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logox
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75% !important;
+    opacity: 1 !important;
+}
+.nady_old_logo
+{
+    width: 20%;
+    padding: 5px;
+    margin-top: 90px;
+}
+.preloader__image
+{
+    width: 25%;
+}
+.preloader_imgs
+{
+    width: 25% !important;
+}
+.header_3_images
+{
+    position: absolute;
+    z-index: 21;
+    top: -155px;
+    left:30%;
+}
+.slider_move
+{
+    position: relative;
+    left: 55%;
+    top: -1041px;
+}
+.move
+{
+    position: relative;
+    top: 125px !important;
+    height: 1200px !important;
+    width: 45%;
+}
+.leaf-width
+{
+    width: 60% !important;
+}
+.welcome_two
+{
+    margin-top: -185px !important;
+}
+.recent_project_three
+{
+    height: 850px !important;
+    margin-top: -5px;
+}
+.project_three_content
+{
+    position: relative;
+    top: -20px;
+    background-color: white;
+    border: 1px;
+    border-radius: 35px;
+    text-align: center;
+    width: 75%;
+    box-shadow: 2px 10px 28px rgba(50, 0, 85, 0.12);
+    left: 30px;
+}
+.project_three_content h2
+{
+    color: rgb(121, 121, 121);
+    font-size: 15px;
+    padding: 25px;
+    font-weight: 900 !important;
+}
+.project_three_hover_box
+{
+    background-color: white;
+    border: 1px;
+    border-radius: 45px;
+    text-align: center;
+    width: 75%;
+    box-shadow: 2px 10px 28px rgba(50, 0, 85, 0.12);
+    left: 30px;
+}
+.project_three_hover_box p
+{
+    color: gray;
+    font-size: 12px;
+    padding: 25px;
+    font-weight: 900 !important;
+}
+.img_padding
+{
+    padding: 10px;
+}
+.icon-width
+{
+    width: 65% !important;
+}
+.nemo
+{
+    position: relative;
+    left: 38%;
+}
+.phone-mock
+{
+    position: relative;
+    left: 25%;
+    width: 22% !important;
+}
+.eshterek
+{
+    position: relative;
+    top: 100px;
+    right: 32%;
+}
+.eshterek h3
+{
+    color: white;
+}
+.arrowz
+{
+    position: absolute;
+    margin-top: -45px;
+    left: 46%;
+    width: 4%;
+}
+.edkhol
+{
+    position: relative;
+    color: white;
+    top: -195px;
+    left: 45%;
+    width: 25%;
+    font-size: 30px;
+}
+.etegahat
+{
+    position: relative;
+    left: -42px;
+    border: 1px;
+    border-radius: 40px;
+    background-color: #66594f;
+    font-size: 13px;
+    padding: 13px;
+    color: white;
+}
+.etegahat1
+{
+    position: relative;
+    left: -40px;
+    border: 1px;
+    border-radius: 40px;
+    background-color: #66594f;
+    font-size: 13px;
+    padding: 13px;
+    color: white;
+}
+.etegahat2
+{
+    position: relative;
+    left: -10px;
+    border: 1px;
+    border-radius: 40px;
+    background-color: #66594f;
+    font-size: 13px;
+    padding: 13px;
+    color: white;
+}
+.lightgray
+{
+    background-color: lightgray !important;
+}
+.factory_img
+{
+    margin-top: -295px !important;
+}
+.first_slider_position
+{
+    width: 48%;
+    position: relative;
+    top: -121px;
+    left: 1%;
+}
+.second_slider_position
+{
+    width: 48%;
+    position: relative;
+    left: 51%;
+    top: -868px;
+}
+.second_slider_height
+{
+    background-color: #29a329 !important;
+    height: 468px !important;
+}
+.dawagen_height
+{
+    background-color: #ef860d !important;
+    height: 468px !important;
+}
+
+.eco_title h2
+{
+    margin-top: -85px;
+}
+.curved
+{
+    position: absolute;
+    /* bottom: 10px; */
+    left:70%;
+    margin-top: 855px;
+    width: 555px !important;
+}
+.curved_width
+{
+    width: 555px !important;
+}
+.nady8
+{
+    width: 85px !important;
+    position: relative;
+    left: 5%;
+    top: 15px;
+}
+.slider-1
+{
+    height: 1080px;
+}
+.rectangle
+{
+    position: relative;
+    top: -135px;
+    left: 42%;
+    width: 20% !important;
+}
+.new_logo
+{
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 100%;
+    z-index: 9999;
+}
+.new_logo_img
+{
+    width: 350px;
+}
+.qr_img
+{
+    position: relative;
+    left: 25%;
+}
+.footer_col_margin
+{
+    margin-left: -455px;
+    margin-top: 155px;
+}
+.footer_col_margin2
+{
+    margin-left: -155px;
+    margin-top: 155px;
+}
+.contact_us_logo
+{
+    width: 120px;
+}
+a:hover
+{
+    color: #ffaa00 !important;
+}
+.wadyGroup
+{
+    width: 10% !important;
+    position: relative;
+    top: 0px;
+    z-index: 8888;
+}
+.fontSizeSmaller
+{
+    font-size: 28px !important;
+    width: 100% !important;
+}
+.footer_margin
+{
+    position: absolute;
+}
+.bggreen
+{
+    background-color: #29a329 !important;
+}
+/* .bgyellow
+{
+    background-color: #ef860d !important;
+} */
+@media (min-width:1280px) and (max-width:1365px)
+{
+    .carousel .slide
+    {
+        background-color: transparent !important;
+        height: 790px;
+    }
+    .factory_margin
+    {
+        margin-top: 0px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 18%;
+        top: -5px;
+        z-index: 1;
+    }
+    .rectangle
+    {
+        margin-top: -525px;
+    }
+    .project_three_content
+    {
+        left: 15px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        padding: 25px;
+        line-height: 17px;
+    }
+    .project_three_hover_box
+    {
+        left: 15px;
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .project_three_hover_box p
+    {
+        padding: 15px;
+        line-height: 17px;
+    }
+    .eco_friendly_title h2 {
+        font-size: 30px !important;
+    }
+    .first_slider_position
+    {
+        position: relative;
+        top: -55px;
+    }
+    .second_slider_position
+    {
+        position: relative;
+        top: -695px;
+    }
+    .second_slider_height
+    {
+        height: 394px !important;
+    }
+    .dawagen_height
+    {
+        height: 394px !important;
+    }
+    .img_padding
+    {
+        padding:4px;
+    }
+    .eco_friendly_content h2
+    {
+        margin-top: -85px;
+    }
+    .recent_project_three
+    {
+        height: 755px !important;
+    }
+    .curved
+    {
+        position: absolute;
+        /* bottom: 10px; */
+        left:62%;
+        margin-top: 505px;
+        width: 455px !important;
+    }
+    .curved_width
+    {
+        width: 455px !important;
+    }
+    .slider-1
+    {
+        height: 700px !important;
+    }
+    .phone-mock
+    {
+        margin-top: 55px;
+    }
+    .nady8
+    {
+        margin-left: 15px;
+    }
+    .qr_img
+    {
+        width: 255px;
+        margin-top: 155px;
+        left: 26%;
+    }
+    .rectangle2
+    {
+        margin-top: 15px;
+        border-radius: 35px;
+    }
+    .new_logo
+    {
+        left: 75%;
+    }
+    .edkhol
+    {
+        position: relative;
+        top: -105px;
+        font-size: 22px;
+        width: 20%;
+        left: 48%;
+    }
+}
+@media (min-width:1366px) and (max-width:1439px)
+{
+    .carousel .slide
+    {
+        background-color: transparent !important;
+        height: 790px;
+    }
+    .factory_margin
+    {
+        margin-top: 0px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 20%;
+        top: 15px;
+        z-index: 1;
+    }
+    .rectangle
+    {
+        margin-top: -525px;
+    }
+    .project_three_content
+    {
+        left: 15px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        padding: 25px;
+        line-height: 17px;
+    }
+    .project_three_hover_box
+    {
+        left: 15px;
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .project_three_hover_box p
+    {
+        padding: 15px;
+        line-height: 17px;
+    }
+    .eco_friendly_title h2 {
+        font-size: 30px !important;
+    }
+    .first_slider_position
+    {
+        position: relative;
+        top: -55px;
+    }
+    .second_slider_position
+    {
+        position: relative;
+        top: -713px;
+    }
+    .dawagen_height
+    {
+        height: 405px !important;
+    }
+    .img_padding
+    {
+        padding:4px;
+    }
+    .eco_friendly_content h2
+    {
+        margin-top: -85px;
+    }
+    .recent_project_three
+    {
+        height: 839px !important;
+    }
+    .curved
+    {
+        position: absolute;
+        /* bottom: 10px; */
+        left:55%;
+        margin-top: 555px;
+        width: 555px !important;
+    }
+    .curved_width
+    {
+        width: 555px !important;
+    }
+    .slider-1
+    {
+        height: 770px !important;
+    }
+    .rectangle2
+    {
+        margin-top: 15px;
+        border-radius: 35px;
+    }
+    .nady8
+    {
+        margin-left: 15px;
+    }
+    .qr_img
+    {
+        width: 255px;
+        margin-top: 55px;
+        margin-left: 30px;
+    }
+    .phone-mock
+    {
+        margin-top: 15px;
+    }
+    .new_logo
+    {
+        left: 75% !important;
+    }
+    .edkhol
+    {
+        position: relative;
+        top: -145px;
+        font-size: 22px;
+        width: 20%;
+        left: 48%;
+    }
+}
+@media (min-width:1440px) and (max-width:1679px)
+{
+    .project_three_content
+    {
+        left: 45px;
+        margin-top: 25px;
+    }
+    .project_three_hover_box
+    {
+        left: 45px;
+        margin-top: 25px;
+    }
+    .project_three_hover_box p
+    {
+        font-size: 17px !important;
+    }
+    .carousel .slide
+    {
+        background-color: transparent !important;
+        height: 830px;
+    }
+    .factory_margin
+    {
+        margin-top: 0px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 20%;
+        top: 25px;
+        z-index: 1;
+    }
+    .rectangle
+    {
+        margin-top: -545px;
+    }
+    .project_three_content
+    {
+        left: 15px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        padding: 25px;
+        line-height: 17px;
+    }
+    .project_three_hover_box
+    {
+        left: 15px;
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .project_three_hover_box p
+    {
+        padding: 15px;
+        line-height: 17px;
+    }
+    .eco_friendly_title h2 {
+        font-size: 30px !important;
+    }
+    .first_slider_position
+    {
+        position: relative;
+        top: -50px;
+    }
+    .second_slider_position
+    {
+        position: relative;
+        top: -725px;
+    }
+    .second_slider_height
+    {
+        height: 414px !important;
+    }
+    .dawagen_height
+    {
+        height: 414px !important;
+    }
+    .img_padding
+    {
+        padding:4px;
+    }
+    .eco_friendly_content h2
+    {
+        margin-top: -85px;
+    }
+    .recent_project_three
+    {
+        height: 849px !important;
+    }
+    .curved
+    {
+        position: absolute;
+        /* bottom: 10px; */
+        left:60%;
+        margin-top: 595px;
+        width: 555px !important;
+    }
+    .curved_width
+    {
+        width: 555px !important;
+    }
+    .slider-1
+    {
+        height: 815px !important;
+    }
+    .nady8
+    {
+        margin-left: 15px;
+    }
+    .qr_img
+    {
+        width: 255px;
+        margin-top: 55px;
+        margin-left: 45px;
+    }
+    .phone-mock
+    {
+        margin-top: 15px;
+    }
+    .rectangle2
+    {
+        margin-top: 15px;
+        border-radius: 35px;
+    }
+    .new_logo
+    {
+        left: 77% !important;
+    }
+    .edkhol
+    {
+        position: relative;
+        top: -165px;
+        font-size: 22px;
+        width: 20%;
+        left: 48%;
+    }
+}
+@media (min-width:1680px) and (max-width:1919px)
+{
+    .carousel .slide
+    {
+        background-color: transparent !important;
+        height: 990px;
+    }
+    .factory_margin
+    {
+        margin-top: 0px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 25%;
+        top: 15px;
+        z-index: 1;
+    }
+    .project_three_content
+    {
+        left: 15px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        padding: 25px;
+        line-height: 17px;
+    }
+    .project_three_hover_box
+    {
+        left: 15px;
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .project_three_hover_box p
+    {
+        padding: 15px;
+        line-height: 17px;
+    }
+    .eco_friendly_title h2 {
+        font-size: 30px !important;
+    }
+    .first_slider_position
+    {
+        position: relative;
+        top: -120px;
+    }
+    .second_slider_position
+    {
+        position: relative;
+        top: -829px;
+    }
+    .second_slider_height
+    {
+        height: 434px !important;
+    }
+    .dawagen_height
+    {
+        height: 434px !important;
+    }
+    .img_padding
+    {
+        padding:4px;
+    }
+    .eco_friendly_content h2
+    {
+        margin-top: -85px;
+    }
+    .recent_project_three
+    {
+        height: 779px !important;
+    }
+    .curved
+    {
+        position: absolute;
+        /* bottom: 10px; */
+        left:65%;
+        margin-top: 705px;
+        width: 555px !important;
+    }
+    .curved_width
+    {
+        width: 555px !important;
+    }
+    .slider-1
+    {
+        height: 935px !important;
+    }
+    .nady8
+    {
+        margin-left: 15px;
+    }
+    .qr_img
+    {
+        width: 325px;
+        margin-top: 55px;
+        margin-left: 45px;
+    }
+    .phone-mock
+    {
+        margin-top: 15px;
+    }
+    .arrowz
+    {
+        margin-left: -15px;
+    }
+    .rectangle2
+    {
+        margin-top: 15px;
+        border-radius: 35px;
+    }
+    .edkhol
+    {
+        font-size: 25px;
+        width: 20%;
+        left: 48%;
+    }
+}
+@media (min-width:1956px) and (max-width: 2156px) /* 90% */
+{
+        .rectangle
+        {
+            margin-top: -755px;
+        }
+        .carousel .slide
+        {
+            background-color: transparent !important;
+            height: 1290px;
+        }
+        .factory_margin
+        {
+            margin-top: 0px !important;
+            height: 1200px !important;
+        }
+        .caro_indicators
+        {
+            position: relative;   
+            left: 32%;
+            top: -25px;
+            z-index: 1;
+        }
+        .project_three_content
+        {
+            left: 15px;
+            width: 85%;
+            margin-top: 5px;
+        }
+        .project_three_content h2
+        {
+            padding: 25px;
+            line-height: 17px;
+        }
+        .project_three_hover_box
+        {
+            left: 15px;
+            width: 85%;
+            margin-bottom: 25px;
+        }
+        .project_three_hover_box p
+        {
+            padding: 15px;
+            line-height: 17px;
+        }
+        .eco_friendly_title h2 {
+            font-size: 30px !important;
+        }
+        .first_slider_position
+        {
+            position: relative;
+            top: -55px;
+        }
+        .second_slider_position
+        {
+            position: relative;
+            top: -865px;
+        }
+        .second_slider_height
+        {
+            height: 502px !important;
+        }
+        .dawagen_height
+        {
+            height: 502px !important;
+        }
+        .img_padding
+        {
+            padding:4px;
+        }
+        .eco_friendly_content h2
+        {
+            margin-top: -85px;
+        }
+        .recent_project_three
+        {
+            height: 979px !important;
+        }
+        .curved
+        {
+            position: absolute;
+            /* bottom: 10px; */
+            left:60%;
+            margin-top: 655px;
+            width: 755px !important;
+        }
+        .curved_width
+        {
+            width: 755px !important;
+        }
+        .arrowz
+        {
+            margin-left: 72px;
+        }
+}
+@media (min-width:2560px) and (max-width:3839px)
+{
+    .rectangle
+    {
+        margin-top: -855px;
+    }
+    .carousel .slide
+    {
+        background-color: transparent !important;
+        height: 1490px;
+    }
+    .factory_margin
+    {
+        margin-top: 0px !important;
+        height: 1200px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 35%;
+        top: 15px;
+        z-index: 1;
+    }
+    .project_three_content
+    {
+        left: 15px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        padding: 25px;
+        line-height: 17px;
+    }
+    .project_three_hover_box
+    {
+        left: 15px;
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .project_three_hover_box p
+    {
+        padding: 15px;
+        line-height: 17px;
+    }
+    .eco_friendly_title h2 {
+        font-size: 30px !important;
+    }
+    .first_slider_position
+    {
+        position: relative;
+        top: -125px;
+    }
+    .second_slider_position
+    {
+        position: relative;
+        top: -999px;
+    }
+    .second_slider_height
+    {
+        height: 539px !important;
+    }
+    .dawagen_height
+    {
+        height: 539px !important;
+    }
+    .img_padding
+    {
+        padding:4px;
+    }
+    .eco_friendly_content h2
+    {
+        margin-top: -85px;
+    }
+    .recent_project_three
+    {
+        height: 979px !important;
+    }
+    .curved
+    {
+        position: absolute;
+        /* bottom: 10px; */
+        left:65%;
+        margin-top: 655px;
+        width: 755px !important;
+    }
+    .curved_width
+    {
+        width: 755px !important;
+    }
+    .arrowz
+    {
+        margin-left: 72px;
+    }
+    .slider-1
+    {
+        height: 1435px !important;
+    }
+    .nady8
+    {
+        margin-left: 15px;
+    }
+    .qr_img
+    {
+        width: 20%;
+        margin-top: 55px;
+        margin-left: 45px;
+    }
+    .phone-mock
+    {
+        margin-top: 15px;
+    }
+    .rectangle2
+    {
+        margin-top: 15px;
+        border-radius: 35px;
+    }
+    .edkhol
+    {
+        position: relative;
+        top: -285px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .main-nav__navigation-box li a
+    {
+        position: relative;
+        margin-top: 27px;
+        text-align: right;
+        font-weight: bolder !important;
+        font-family: GE !important;
+        font-size: 18px;
+        letter-spacing: 0px !important;
+    }
+    .preloader_imgs
+    {
+        width: 25% !important;
+    }
+    .site_header__header_three_wrap
+    {
+        height: 85px !important;
+    }
+    .side-menu__close-btn
+    {
+        position: relative;
+        right: 90%;
+    }
+    .topbar_three_content
+    {
+        height: 85px !important;
+    }
+    .topbar_three_nav_box
+    {
+        position: absolute;
+        right: 6% !important;
+        top: -25px;
+    }
+    /* .new_logo
+    {
+        width: 100%;
+        z-index: 9999;
+    } */
+    .new_logo_img
+    {
+        position: absolute;
+        left: -17%;
+        top: 15px;
+        width: 50% !important;
+        z-index: 9999;
+    }
+    .nady8
+    {
+        width: 55% !important;
+        margin-left: -8px !important;
+        width: 10% !important;
+        position: relative;
+        top: 65px;
+    }
+    .carousel .slide
+    {
+        height: 300px !important;
+    }
+    #myVideo
+    {
+        width: 482px !important;
+    }
+    .slider-1
+    {
+        height: 222px !important;
+        margin-top: -5px !important;
+    }
+    .slider-2
+    {
+        height: 222px !important;
+        margin-top: -5px !important;
+    }
+    .slider-3
+    {
+        height: 222px !important;
+        margin-top: -5px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 25%;
+        top: 5px;
+        z-index: 1;
+        width: 160%;
+    }
+    .indi_pos1
+    {
+        left: -11.5% !important;
+        /* left: -93px !important; */
+        top: -105px;
+        width: 20% !important;
+        /* width: 140px !important; */
+    }
+    .indi_pos2
+    {
+        left: 7% !important;
+        /* left: 35px !important; */
+        top: -105px;
+        width: 20% !important;
+        /* width: 136px !important; */
+    }
+    .indi_pos3
+    {
+        left: 23% !important;
+        /* left: 158px !important; */
+        top: -105px;
+        width: 20% !important;
+        /* width: 105px !important; */
+    }
+    .factory_margin
+    {
+        margin-top: -10px;
+    }
+    .nady_old_logo
+    {
+        width: 50%;
+        padding: 5px;
+        margin-top: 50px;
+    }
+    .icon-width
+    {
+        width: 40% !important;
+    }
+    .fontSizeSmaller
+    {
+        font-size: 25px !important;
+        width: 100% !important;
+    }
+    .fontSizeSmallers
+    {
+        font-size: 22px !important;
+    }
+    .col-width
+    {
+        width: 100% !important;
+        padding: 17% !important;
+    }
+    .arrowz
+    {
+        width: 10%;
+    }
+    .eshterek
+    {
+        position: relative;
+        top: 80px;
+        right: 5%;
+        width: 100% !important;
+    }
+    .edkhol
+    {
+        position: relative;
+        top: -115px;
+        color: white;
+        font-size: 12px;
+        left: 50% !important;
+        width: 40%;
+    }
+    .phone-mock
+    {
+        position: relative;
+        left: 5%;
+        top: 95px;
+        width: 45% !important;
+        padding-bottom: 125px;
+    }
+    .qr_img
+    {
+        position: relative;
+        left: 5%;
+        width: 45%;
+        margin-top: 55px;
+    }
+    .col-width-products
+    {
+        position: absolute !important;
+        top: 5px;
+        width: 120% !important;
+        padding: 15% !important;
+        left: -10% !important;
+    }
+    .recent_project_three
+    {
+        height: 1950px !important;
+    }
+    .first_slider_position
+    {
+        width: 48%;
+        position: absolute;
+        top: 47%;
+        left: 0;
+    }
+    .second_slider_position
+    {
+        width: 48%;
+        position: absolute;
+        left: 0;
+        top: 0%;
+    }
+    .second_slider_height
+    {
+        height: auto !important;
+    }
+    .dawagen_height
+    {
+        height: auto !important;
+    }
+    .rectangle2
+    {
+        position: relative;
+        top: 10px;
+        background-color: whitesmoke;
+        padding: 15px;
+        border: 1px;
+        border-radius: 45px;
+        width: 65% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fontSizeSmaller-products
+    {
+        white-space: nowrap;
+        font-size: 30px !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px !important;
+    }
+    .project_three_content
+    {
+        left: 25px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_hover_box
+    {
+        left: 25px;
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .project_three_image
+    {
+        padding: 20px !important;
+    }
+    .footer_edits
+    {
+        margin-top: -85px !important;
+    }
+    .footer_col_margin
+    {
+        position: relative;
+        left: 30%;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+    .footer_col_margin2
+    {
+        position: relative;
+        left: -2% !important;
+        margin-top: 200px !important;
+    }
+    .contact_us_logo
+    {
+        width: 35%;
+        padding-bottom: 25px;
+    }
+    .wadyGroup
+    {
+        width: 30% !important;
+        position: relative;
+        top: 5px;
+    }
+    .etegahat
+    {
+        white-space: nowrap;
+        left: 0;
+    }
+    .etegahat1
+    {
+        white-space: nowrap;
+        left: 0;
+    }
+    .etegahat2
+    {
+        white-space: nowrap;
+        left: 0;
+    }
+    .footer_margin
+    {
+        position: relative;
+    }
+
+}
+@media (min-width:768px) and (max-width:1279px){
+    .main-nav__navigation-box li a
+    {
+        position: relative;
+        margin-top: 27px;
+        text-align: right;
+        font-weight: bolder !important;
+        font-family: GE !important;
+        font-size: 18px;
+        letter-spacing: 0px !important;
+    }
+    .preloader_imgs
+    {
+        width: 25% !important;
+    }
+    .site_header__header_three_wrap
+    {
+        height: 85px !important;
+    }
+    .side-menu__close-btn
+    {
+        position: relative;
+        right: 90%;
+    }
+    .topbar_three_content
+    {
+        height: 85px !important;
+    }
+    .topbar_three_nav_box
+    {
+        position: absolute;
+        right: 92% !important;
+        top: -25px;
+    }
+    .new_logo_img
+    {
+        position: absolute;
+        left: -10%;
+        top: 15px;
+        width: 40% !important;
+        z-index: 9999;
+    }
+    .nady8
+    {
+        width: 55% !important;
+        margin-left: -33px !important;
+        width: 7% !important;
+        position: relative;
+        top: 72px;
+    }
+    .carousel .slide
+    {
+        height: 490px !important;
+    }
+    #myVideo
+    {
+        width: 482px !important;
+    }
+    .slider-1
+    {
+        height: 384px !important;
+        margin-top: -5px !important;
+    }
+    .slider-2
+    {
+        height: 384px !important;
+        margin-top: -5px !important;
+    }
+    .slider-3
+    {
+        height: 384px !important;
+        margin-top: -5px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 30%;
+        top: -45px;
+        z-index: 1;
+        width: 130%;
+    }
+    .indi_pos1
+    {
+        left: -16% !important;
+        /* left: -93px !important; */
+        top: -105px;
+        width: 24% !important;
+        /* width: 140px !important; */
+    }
+    .indi_pos2
+    {
+        left: 7% !important;
+        /* left: 35px !important; */
+        top: -105px;
+        width: 24% !important;
+        /* width: 136px !important; */
+    }
+    .indi_pos3
+    {
+        left: 26.5% !important;
+        /* left: 158px !important; */
+        top: -105px;
+        width: 24% !important;
+        /* width: 105px !important; */
+    }
+    .factory_margin
+    {
+        margin-top: -10px;
+    }
+    .nady_old_logo
+    {
+        width: 35%;
+        padding: 5px;
+        margin-top: 50px;
+    }
+    .icon-width
+    {
+        width: 40% !important;
+    }
+    .fontSizeSmaller
+    {
+        font-size: 40px !important;
+        width: 100% !important;
+    }
+    .fontSizeSmallers
+    {
+        font-size: 22px !important;
+    }
+    .col-width
+    {
+        width: 100% !important;
+        padding: 13% !important;
+    }
+    .arrowz
+    {
+        width: 7%;
+    }
+    .eshterek
+    {
+        position: relative;
+        top: 80px;
+        right: 5%;
+        width: 100% !important;
+    }
+    .edkhol
+    {
+        position: relative;
+        top: -215px;
+        color: white;
+        font-size: 25px;
+        left: 50% !important;
+        width: 40%;
+    }
+    .phone-mock
+    {
+        position: relative;
+        left: 5%;
+        top: 95px;
+        width: 45% !important;
+        padding-bottom: 125px;
+    }
+    .qr_img
+    {
+        position: relative;
+        left: 5%;
+        width: 45%;
+        margin-top: 55px;
+    }
+    .col-width-products
+    {
+        position: absolute !important;
+        top: 5px;
+        width: 120% !important;
+        padding: 15% !important;
+        left: -10% !important;
+    }
+    .recent_project_three
+    {
+        height: 3050px !important;
+    }
+    .first_slider_position
+    {
+        width: 48%;
+        position: absolute;
+        top: 47%;
+        left: 0;
+    }
+    .second_slider_position
+    {
+        width: 48%;
+        position: absolute;
+        left: 0;
+        top: 0%;
+    }
+    .second_slider_height
+    {
+        height: auto !important;
+    }
+    .dawagen_height
+    {
+        height: auto !important;
+    }
+    .rectangle2
+    {
+        position: relative;
+        top: 10px;
+        background-color: whitesmoke;
+        padding: 15px;
+        border: 1px;
+        border-radius: 45px;
+        width: 65% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fontSizeSmaller-products
+    {
+        white-space: nowrap;
+        font-size: 34px !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px !important;
+    }
+    .project_three_content
+    {
+        left: 50px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        font-size: 25px;
+    }
+    .project_three_hover_box
+    {
+        left: 50px;
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .project_three_hover_box p
+    {
+        font-size: 25px;
+    }
+    .project_three_image
+    {
+        padding: 20px !important;
+    }
+    .footer_edits
+    {
+        margin-top: -85px !important;
+    }
+    .footer_col_margin
+    {
+        position: relative;
+        left: 30%;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+    .footer_col_margin2
+    {
+        position: relative;
+        left: -2% !important;
+        margin-top: 200px !important;
+    }
+    .contact_us_logo
+    {
+        width: 35%;
+        padding-bottom: 25px;
+    }
+    .wadyGroup
+    {
+        width: 30% !important;
+        position: relative;
+        top: 0;
+    }
+    .footer_margin
+    {
+        position: relative;
+    }
+    .topbar_three_nav_box {
+        position: relative;
+        display: block;
+        max-width: 100% !important;
+        width: 100%;
+        left: -3%;
+    }
+}

@@ -2658,7 +2658,7 @@ function DawagenCarousel() {
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
             className: "project_three_content",
             style: {
-              backgroundColor: '#534839'
+              backgroundColor: '#da373e'
             },
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("h2", {
               style: {

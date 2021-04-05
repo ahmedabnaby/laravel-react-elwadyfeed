@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{path?}', function () {
+Route::get('/', function () {
     return view('welcome');
-})->where('path','.*');
+});
+
+Route::resource('masheyas', App\Http\Controllers\MasheyasCRUDController::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

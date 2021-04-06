@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Masheya;
+use App\Models\Dawagen;
 
 
-class MasheyasCRUDController extends Controller
+class DawagensCRUDController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,9 +16,9 @@ class MasheyasCRUDController extends Controller
     public function index()
     {
         
-        $data['products'] = Masheya::all();
+        $data['products'] = Dawagen::all();
     
-        return view('masheyas.index', $data);
+        return view('dawagens.index', $data);
     }
 
     /**
@@ -28,7 +28,7 @@ class MasheyasCRUDController extends Controller
      */
     public function create()
     {
-        return view('masheyas.create');
+        return view('dawagens.create');
     }
 
     /**
@@ -44,13 +44,13 @@ class MasheyasCRUDController extends Controller
             'image' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048',
         ]);
         $path = $request->file('image')->store('public/images');
-        $product = new Masheya;
+        $product = new Dawagen;
         $product->name = $request->name;
         $product->description = $request->description;
         $product->image = $path;
         $product->save();
      
-        return redirect()->route('masheyas.index')
+        return redirect()->route('dawagens.index')
                         ->with('success','Product has been created successfully.');
     }
 
@@ -60,9 +60,9 @@ class MasheyasCRUDController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Masheya $product)
+    public function show(Dawagen $product)
     {
-        return view('masheyas.show',compact('product'));
+        return view('dawagens.show',compact('product'));
     }
 
     /**
@@ -73,8 +73,8 @@ class MasheyasCRUDController extends Controller
      */
     public function edit($id)
     {
-        $product = Masheya::findOrfail($id);
-        return view('masheyas.edit',compact('product'));
+        $product = Dawagen::findOrfail($id);
+        return view('dawagens.edit',compact('product'));
     }
 
     /**
@@ -90,7 +90,7 @@ class MasheyasCRUDController extends Controller
             'name' => 'required',
         ]);
         
-        $product = Masheya::find($id);
+        $product = Dawagen::find($id);
         if($request->hasFile('image')){
             $request->validate([
               'image' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048',
@@ -102,7 +102,7 @@ class MasheyasCRUDController extends Controller
         $product->description = $request->description;
         $product->save();
     
-        return redirect()->route('masheyas.index')
+        return redirect()->route('dawagens.index')
                         ->with('success','Product updated successfully');
     }
 
@@ -114,10 +114,10 @@ class MasheyasCRUDController extends Controller
      */
     public function destroy($id)
     {
-        $product = Masheya::findOrfail($id);
+        $product = Dawagen::findOrfail($id);
         $product->delete();
     
-        return redirect()->route('masheyas.index')
+        return redirect()->route('dawagens.index')
                         ->with('success','Post has been deleted successfully');
     }
 }

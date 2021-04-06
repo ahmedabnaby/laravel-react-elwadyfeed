@@ -19,7 +19,7 @@
                             <a class="btn btn-primary" href="{{ route('masheyas.index') }}"> اعلاف الماشية</a>
                         </div>
                         <div class="col">
-                            <a class="btn btn-success" href="{{ route('masheyas.create') }}"> اعلاف الدواجن</a>
+                            <a class="btn btn-success" href="{{ route('dawagens.index') }}"> اعلاف الدواجن</a>
                         </div>
                     </div>
                 </div>

@@ -37,7 +37,7 @@ function MasheyaCarousel() {
       <div className="project_three_single wow fadeInUp" data-wow-delay="600ms"  key={row.id}>
 
                     <div className="project_three_image img_padding">
-                        <img src={"/images/wady/"+row.image}   />
+                    <img src={"storage/"+row.image.slice(7)}   />
                         <div className="project_three_content" style={{backgroundColor:'#534839'}}>
                             <h2 style={{color:'white', fontFamily:'Bold GE SS'}}>{row.name} </h2>
                         </div>

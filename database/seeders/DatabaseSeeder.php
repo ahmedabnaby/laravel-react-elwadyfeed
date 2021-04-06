@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             MasheyaSeeder::class,
+            UsersSeeder::class,
             DawagenSeeder::class
         ]);
     }

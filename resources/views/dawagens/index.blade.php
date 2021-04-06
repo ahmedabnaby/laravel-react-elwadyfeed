@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>ELWady-Feed</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 </head>
 <body>
 <div class="container mt-2">
@@ -13,7 +13,7 @@
                 <h2>ELWady-Feed Products</h2>
             </div>
             <div class="pull-right mb-2">
-                <a class="btn btn-success" href="{{ route('masheyas.create') }}"> Create New Product</a>
+                <a class="btn btn-success" href="{{ route('dawagens.create') }}"> Create New Product</a>
             </div>
         </div>
     </div>
@@ -39,9 +39,9 @@
             <td>{{ $product->name }}</td>
             <td>{{ $product->description }}</td>
             <td>
-                <form action="{{ route('masheyas.destroy',$product->id) }}" method="POST">
+                <form action="{{ route('dawagens.destroy',$product->id) }}" method="POST">
     
-                    <a class="btn btn-primary" href="{{ route('masheyas.edit',$product->id) }}">Edit</a>
+                    <a class="btn btn-primary" href="{{ route('dawagens.edit',$product->id) }}">Edit</a>
    
                     @csrf
                     @method('DELETE')

@@ -17,7 +17,7 @@ class UsersSeeder extends Seeder
             
                 'name' => 'ElWady Feed',
                 'email' => 'admin@elwady-feed.com',
-                'password'=> bcrypt('adminpassword')
+                'password'=> bcrypt('@"Zw*byuMxXzQX.},mH4-')
             
         ]);
     }

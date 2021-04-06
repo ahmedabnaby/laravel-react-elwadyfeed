@@ -30,11 +30,6 @@ class DawagenSeeder extends Seeder
                 'image' => '1- Bady (7.450 L.E) Per Ton.png',
                 'description' => 'و اللي بيتكون من العناصر الأعلى هضمية , لبداية مثالية , ومكاسب خيالية',
             ],[
-                'name' => '%نامي 21 ',
-                'name2' => '(من عمر 11 يوم - 21 يوم) ',
-                'image' => '2- Namy (7.350 L.E)Per Ton.png',
-                'description' => '',
-            ],[
                 'name' => '% بادي نامي 21 ',
                 'name2' => '',
                 'image' => '5- Bady Nami (6.950 L.E)Per Ton.png',
